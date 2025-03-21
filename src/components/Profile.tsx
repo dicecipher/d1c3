@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Profile.scss'
+import './styles/Profile.scss'
 import { Avatar } from '@mui/material';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';

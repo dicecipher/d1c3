@@ -4,3 +4,10 @@
   padding: 1rem;
   text-align: center;
 }
+.main-container {
+  display: flex;
+}
+.profile-container {
+  max-width: 280px;
+}
+
