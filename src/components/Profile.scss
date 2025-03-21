@@ -1,0 +1,59 @@
+
+/* define variables for the font-size */
+$h1: 40px;
+$h2: 32px;
+$h3: 24px;
+$h4: 20px;
+$h5: 16px;
+$h6: 14px;
+
+.profile-container {
+    width: 280px;
+    .profile {
+        border-radius: 50%;
+        height: 280px;
+        width: 280px;
+        margin-right: 10px;
+    }
+    
+}
+.profile-content {
+    .name{
+        text-align: left;
+        font-size: $h3;
+        font-weight: 500;
+        margin: 0;
+        padding-top: 30px;
+    }
+    .username {
+        font-size: $h4;
+        font-weight: 400;
+        color: #59636e;
+        margin: 0;
+        text-align: left;
+    }
+    .bio {
+        font-size: $h5;
+        margin: 0;
+        text-align: left;
+        padding: 15px 0;
+        text-align: justify;
+    }
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    .prof-icon {
+        height: 25px;
+        width: 25x;
+    }
+    .info {
+        margin: 0;
+        font-size: $h6;
+    }
+    .utc-text {
+        color: #59636e;
+    }
+}
