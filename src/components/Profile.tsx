@@ -4,6 +4,9 @@ import { Avatar } from '@mui/material';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
+import avatar from '../../public/avatar.svg';
+
+
 function Profile() {
     const [Time, setTime] = useState('');
 
@@ -28,7 +31,7 @@ function Profile() {
     <>
     <div className='profile-container'> 
     <div className="profile-content">
-        <Avatar alt="d1c3cipher" src="/static/images/avatar/1.jpg" className='profile' /> 
+        <Avatar alt="d1c3cipher" src={avatar} className='profile' /> 
        <div className='profile-info'>
        <p className='name'> D1C3 </p>
        <p className='username'> dicecipher · she/her </p>
