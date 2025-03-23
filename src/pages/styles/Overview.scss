@@ -1,0 +1,47 @@
+.overview-container {
+  height: 330px;
+  background-color: #ffffff;
+  border: solid 1px #59636e;
+  border-radius: 10px;
+  padding: 24px;
+
+  .id {
+    font-size: 12px;
+    color: #59636e;
+    font-family: monospace;
+    text-align: left;
+    margin: 0;
+  }
+
+  .content {
+    font-size: 14px;
+    margin: 0;
+    text-align: justify;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .ascii {
+    font-size: 10px;
+    color: #59636e;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    color: #8A2D2D;
+    font-weight: 500;
+  }
+
+  .chip-container {
+   display: flex;
+   justify-content: left;
+   gap: 10px;
+  }
+}

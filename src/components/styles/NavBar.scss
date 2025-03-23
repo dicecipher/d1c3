@@ -7,14 +7,14 @@
 
 .hello-container {
     width: 100%;
-    height: 100px;
+    height: 90px;
     text-align: left;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Borel', cursive;
     line-height: 2.5;
 }
 
-.h { color: #8A2D2D; margin: 0; }
+.h { color: #8A2D2D; }
 .e { color:  #E07A5F; } 
 .l { color: #3D405B } 
 .o { color: #81B29A } 
@@ -61,6 +61,7 @@
   .line {
     width: 100%;
     height: 1px;
-    background-color: #d0d0d0;
+    background-color: #59636e;
     margin-top: 25px;
+    margin-bottom: 25px;
   }
