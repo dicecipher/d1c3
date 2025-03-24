@@ -1,0 +1,22 @@
+.splash-screen {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh; 
+
+  }
+  
+  .splash-gif {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .codename {
+    font-size: 24px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20px;
+    color: #8A2D2D;
+  }
+  
