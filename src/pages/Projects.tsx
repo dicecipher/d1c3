@@ -10,10 +10,10 @@ function Projects() {
             <h1 className='project-name'>Tamix</h1>
             <Chip className="tools"  label="WordPress"/>
             <Tooltip title="Open Link" arrow>
-            <div className="circle-icon">
-              <CallMadeOutlinedIcon className="icon" />
-            </div>
-          </Tooltip>
+          <a className="circle-icon" href="https://tamix.com/" target="_blank" rel="noopener noreferrer">
+            <CallMadeOutlinedIcon className="icon" />
+          </a>
+        </Tooltip>
           </div>
           <div className='bottom-bar'></div>
         </div>
@@ -21,10 +21,11 @@ function Projects() {
         <div className='projects-content'>
           <h1 className='project-name'>Tamix</h1>
           <Chip className="tools"  label="WordPress"/>
+          <Chip className="tools"  label="WordPress"/>
           <Tooltip title="Open Link" arrow>
-          <div className="circle-icon">
+          <a className="circle-icon" href="https://tamix.com/" target="_blank" rel="noopener noreferrer">
             <CallMadeOutlinedIcon className="icon" />
-          </div>
+          </a>
         </Tooltip>
         </div>
         <div className='bottom-bar'></div>

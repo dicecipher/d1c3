@@ -42,9 +42,9 @@ function Overview() {
 
      <Chip variant="outlined" className="chips"  label="NextJS" avatar={<Avatar src="https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg" />} />
 
-     <Chip variant="outlined" className="chips"  label="React Native" avatar={<Avatar src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" />} />
-
+     <Chip variant="outlined" className="chips"  label="WordPress" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" />} />
      
+     <Chip variant="outlined" className="chips"  label="React Native" avatar={<Avatar src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" />} />
      </div>
      </div>
     </>

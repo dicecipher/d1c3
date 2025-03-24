@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Overview from "./pages/Overview";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import FAQs from "./pages/FAQs";
+import Contact from "./pages/Blogs";
+import FAQs from "./pages/Contact";
 
 function Router() {
   return (

@@ -2,28 +2,28 @@ import './styles/NavBar.scss';
 import { useState } from "react";
 import Overview from "../pages/Overview"; 
 import Projects from "../pages/Projects";
+import Blogs from "../pages/Blogs";
 import Contact from "../pages/Contact";
-import FAQs from "../pages/FAQs";
 
 function NavBar() {
   const [active, setActive] = useState("overview");
 
   const items = [
-    { name: "overview", color: "#d76a50" },
-    { name: "projects", color: "#2e2f49" },
-    { name: "contact", color: "#7fae9d" },
-    { name: "faqs", color: "#f2cb8c" },
+    { name: "Overview", color: "#d76a50" },
+    { name: "Projects", color: "#2e2f49" },
+    { name: "Blogs", color: "#7fae9d" },
+    { name: "Contact", color: "#f2cb8c" },
   ];
   const renderPage = () => {
     switch (active) {
-      case "overview":
+      case "Overview":
         return <Overview />;
-      case "projects":
+      case "Projects":
         return <Projects />;
-      case "contact":
+      case "Blogs":
+        return <Blogs />;
+      case "Contact":
         return <Contact />;
-      case "faqs":
-        return <FAQs />;
       default:
         return <Overview />;
     }
