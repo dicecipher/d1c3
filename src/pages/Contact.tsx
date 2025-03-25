@@ -20,15 +20,15 @@ function Contact() {
     e.preventDefault();
     if (formData.name && formData.email && formData.subject && formData.message) {
       emailjs.send(
-        "your_service_id",  // Replace with your EmailJS service ID
-        "your_template_id", // Replace with your EmailJS template ID
+        "your_service_id",  
+        "your_template_id", 
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
-        "your_public_key"  // Replace with your EmailJS public key
+        "your_public_key"  
       )
       .then(() => {
         setSubmitted(true);
