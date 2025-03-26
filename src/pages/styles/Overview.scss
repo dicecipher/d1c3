@@ -4,7 +4,7 @@
   border: solid 1px #59636e;
   border-radius: 10px;
   padding: 24px;
-
+  overflow: auto; 
   .id {
     font-size: 12px;
     color: #59636e;
@@ -40,8 +40,9 @@
   }
 
   .chip-container {
-   display: flex;
-   justify-content: left;
-   gap: 10px;
+    display: flex;
+    justify-content: justify;
+    gap: 10px;
+    flex-wrap: wrap; 
   }
 }

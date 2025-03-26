@@ -45,6 +45,12 @@ function Overview() {
      <Chip variant="outlined" className="chips"  label="WordPress" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" />} />
      
      <Chip variant="outlined" className="chips"  label="React Native" avatar={<Avatar src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" />} />
+
+     <Chip variant="outlined" className="chips"  label="Tailwind" avatar={<Avatar src="https://codekitapp.com/images/help/free-tailwind-icon@2x.png" />} />
+
+     <Chip variant="outlined" className="chips"  label="SCSS" avatar={<Avatar src="https://pluginicons.craft-cdn.com/scssqTY8srJEesn2VFiUV73mUCyRIZsfXfDj2eOY.svg?1528091210" />} /> 
+     
+     <Chip variant="outlined" className="chips"  label="Bootstrap" avatar={<Avatar src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" />} />
      </div>
      </div>
     </>
