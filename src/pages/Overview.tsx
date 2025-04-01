@@ -26,7 +26,7 @@ function Overview() {
       <p className="content">
       I’m D1C3 (Dicecipher)—passionate about programming and design. Every project I work on is more than just code or visuals, it’s a piece of me.
       </p>
-
+      <div className='contact-line'></div>
       <h1 className="title">Languages and Tools</h1>
       
      <div className="chip-container">
@@ -53,7 +53,6 @@ function Overview() {
      <Chip variant="outlined" className="chips"  label="Bootstrap" avatar={<Avatar src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" />} />
 
      <Chip variant="outlined" className="chips"  label="Firebase" avatar={<Avatar src="https://camo.githubusercontent.com/327f158795aa0c361b2fd793927ede8798fd3c52fe480014e844ee2e8bf7dfbd/68747470733a2f2f66697265626173652e676f6f676c652e636f6d2f646f776e6c6f6164732f6272616e642d67756964656c696e65732f5356472f6c6f676f2d6c6f676f6d61726b2e737667" />} />
-
 
      <Chip variant="outlined" className="chips"  label="PHP" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuua9_FJgkEcyctuCWfVeE_g3pBuRbEcJBng&s" />} />
      </div>
