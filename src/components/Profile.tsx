@@ -34,7 +34,7 @@ function Profile() {
 
        <div className='profile-info'>
        <p className='name'> D1C3 </p>
-       <p className='username'> dicecipher · she/her </p>
+       <p className='username'> asleynicole · she/her </p>
        <p className='bio'> Rolling into the future, one cipher at a time. </p>
        <span className='icon-container'><SchoolOutlinedIcon className='prof-icon'/> <p className='info'>Polytechnic University of the Philippines</p></span>
        <span className='icon-container'><RoomOutlinedIcon className='prof-icon'/> <p className='info'>Manila, Philippines</p></span>

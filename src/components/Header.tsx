@@ -1,7 +1,7 @@
 import './styles/Header.scss' 
+import Theme from './Theme';
 function Header() {
   return (
-  
     <>
     <div className='header-container'> 
         <div className='box-container'>
@@ -11,7 +11,7 @@ function Header() {
         <span className='box4'></span>
         <span className='box5'></span>
         </div>
-        
+        <Theme />
     </div>
     </>
     
