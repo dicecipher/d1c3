@@ -75,3 +75,63 @@ $h6: 14px;
     gap: 5px;
     margin-top: 5px;
 }
+@media (max-width: 480px) {
+    .profile-container {
+      width: 100%;
+        .profile {
+            border-radius: 50%;
+            height: 120px;
+            width: 120px;
+        }
+    }
+    .profile-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        .profile-left {
+            margin-right: 15px;
+        }
+        
+        .profile-right {
+            flex: 1;
+            min-width:100%;
+          }
+          
+    }
+    .profile-content {
+        .name{
+            font-size: $h4;
+            padding-top: 10px;
+        }
+        .username {
+            font-size: $h5;
+        }
+        .bio {
+            font-size: $h6;
+            padding: 5px 0;
+            white-space: normal; 
+            word-break: break-word; 
+          }
+          
+    }
+    .line-container {
+        max-width: 220px;
+        .contact-line {
+            width: 380px;
+         }
+    }
+    .profile-info {
+        width: 100%;
+      }
+      
+    .icon-container {
+        display: none;
+    }
+    .contact-text {
+        display: none;
+    }
+    .contact-container {
+       display: none;
+    }
+  }
