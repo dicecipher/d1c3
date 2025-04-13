@@ -8,8 +8,9 @@
     .projects-content {
       display: flex;
       align-items: center;  
-      gap: 10px; 
+      gap: 20px; 
       height: 110px;
+      margin-bottom: 0px;
       border-radius: 10px;
     }
   
@@ -36,7 +37,18 @@
       border: solid 1px #2c2c4a;
       background-color: #ffffff;
     }
-
+    .project-chip {
+      display: flex;
+      justify-content: justify;
+      gap: 10px;
+      flex-wrap: wrap; 
+      margin-bottom: 0px;
+      .tools {
+        border: solid 1px #2c2c4a;
+        background-color: #ffffff;
+     
+      }
+    }
     .year {
         font-size: 14px;
         font-weight: 500;
@@ -67,3 +79,19 @@
       }
   }
   
+
+  @media (max-width: 480px) { 
+    .projects-container {
+      padding: 15px;
+      .tools {
+        display: none;
+      }
+      .bottom-bar {
+        height: 40px;
+      }
+      .project-name {
+        font-size: 18px;
+      }
+  
+    }
+  }
