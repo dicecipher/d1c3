@@ -57,3 +57,21 @@
         }
       }
 }
+
+
+@media (max-width: 480px) { 
+  .blogs-container {
+    .blog-title {
+        font-size: 18px;
+    }
+    .blog-desc {
+        font-size: 14px;
+    }
+    .read-button {
+        button {
+            padding: 8px 10px;
+        }
+      }
+}
+
+ }
