@@ -49,3 +49,22 @@ body.light-mode {
   background-color: #ffffff;
   color: #000000;
 }
+
+@media (max-width: 480px) { 
+
+  .toggle-container {
+    width: 50px;
+    height: 25px;
+  }
+  
+  .toggle-circle {
+    width: 25px;
+    height: 20px;
+  }
+
+  .toggle-circle svg {
+    font-size: 20px;
+  }
+
+
+}
