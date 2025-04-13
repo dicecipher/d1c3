@@ -7,15 +7,13 @@ $h4: 20px;
 $h5: 16px;
 $h6: 14px;
 
-.profile-container {
-    height: 300px;
+
+.profile-content {
     .profile {
         border-radius: 50%;
         height: 280px;
         width: 280px;
     }
-}
-.profile-content {
     .name{
         text-align: left;
         font-size: $h3;
@@ -50,6 +48,7 @@ $h6: 14px;
     .info {
         margin: 0;
         font-size: $h6;
+        word-break: break-word;
     }
     .utc-text {
         color: #59636e;
@@ -77,29 +76,25 @@ $h6: 14px;
 }
 @media (max-width: 480px) {
     .profile-container {
-      width: 100%;
+        width: 100%; 
+    }
+    .profile-header {
+        display: flex;  
+        align-items: center;
+        justify-content: center;   
+    }
+    .profile-content {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden; 
         .profile {
             border-radius: 50%;
             height: 120px;
             width: 120px;
+            margin-right: 30px;
         }
-    }
-    .profile-header {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        width: 100%;
-        .profile-left {
-            margin-right: 15px;
-        }
-        
-        .profile-right {
-            flex: 1;
-            min-width:100%;
-          }
-          
-    }
-    .profile-content {
         .name{
             font-size: $h4;
             padding-top: 10px;
@@ -116,9 +111,9 @@ $h6: 14px;
           
     }
     .line-container {
-        max-width: 220px;
+     
         .contact-line {
-            width: 380px;
+           width: 100%;
          }
     }
     .profile-info {
