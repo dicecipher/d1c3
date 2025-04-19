@@ -3,6 +3,7 @@ import Chip from '@mui/material/Chip';
 import Avatar from '@mui/material/Avatar';
 function Overview() {
 
+  const timestamp = Date.now();
 
     return (
     <>
@@ -47,11 +48,10 @@ function Overview() {
 
      <Chip variant="outlined" className="chips"  label="WordPress" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" />} />
      <Chip variant="outlined" className="chips"  label="React Native" avatar={<Avatar src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" />} />
-
-     <Chip variant="outlined" className="chips"  label="Tailwind" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s" />} />
-
      <Chip variant="outlined" className="chips"  label="SCSS" avatar={<Avatar src="https://pluginicons.craft-cdn.com/scssqTY8srJEesn2VFiUV73mUCyRIZsfXfDj2eOY.svg?1528091210" />} /> 
      
+     <Chip variant="outlined" className="chips"  label="Tailwind" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s" />} />
+
      <Chip variant="outlined" className="chips"  label="Bootstrap" avatar={<Avatar src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" />} />
 
      <Chip variant="outlined" className="chips"  label="Firebase" avatar={<Avatar src="https://camo.githubusercontent.com/327f158795aa0c361b2fd793927ede8798fd3c52fe480014e844ee2e8bf7dfbd/68747470733a2f2f66697265626173652e676f6f676c652e636f6d2f646f776e6c6f6164732f6272616e642d67756964656c696e65732f5356472f6c6f676f2d6c6f676f6d61726b2e737667" />} />
@@ -62,16 +62,17 @@ function Overview() {
      <h1 className="title">GitHub Statistics</h1>
 
      <div className="graphs-container">
-  <img 
-    src="https://streak-stats.demolab.com?user=aslynclmrzn&theme=transparent&hide_border=true"
-    alt="GitHub Activity Graph"
-    className="graphs"
-  />
-  <img 
-  className="stats"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=dicecipher&theme=transparent&show_icons=true&hide_border=true&layout=compact" 
-    alt="Github Stats" 
-  />
+
+     <img
+      src={`https://streak-stats.demolab.com?user=aslynclmrzn&theme=transparent&timestamp=${timestamp}&hide_border=true`}
+      alt="GitHub Activity Graph"
+      className="streak"
+      />
+    <img 
+    className="stats"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=dicecipher&theme=transparent&show_icons=true&hide_border=true&layout=compact" 
+      alt="Github Stats" 
+    />
 </div>
      </div>
 
