@@ -66,3 +66,41 @@
     margin-top: 25px;
     margin-bottom: 25px;
   }
+
+
+  @media (max-width: 480px) {
+    .navbar-container {
+      margin-left: 0px;
+      width: 100%;
+  }
+  
+  .hello-container {
+      font-size: 45px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      ul {
+        gap: 20px;
+      }
+    
+      li {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    
+      .box {
+        width: 18px;
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+    
+    .line {
+     display: none;
+    }
+  
+  }
+  
