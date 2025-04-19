@@ -1,8 +1,9 @@
 import "./styles/Overview.scss";
 import Chip from '@mui/material/Chip';
 import Avatar from '@mui/material/Avatar';
-
 function Overview() {
+
+
     return (
     <>
      <div className="overview-container">
@@ -56,11 +57,6 @@ function Overview() {
 
      <Chip variant="outlined" className="chips"  label="PHP" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuua9_FJgkEcyctuCWfVeE_g3pBuRbEcJBng&s" />} />
      </div>
-
-     <div className='contact-line'></div>
-     <h1 className="title">Experience</h1>
-     
-
 
      </div>
     </>
