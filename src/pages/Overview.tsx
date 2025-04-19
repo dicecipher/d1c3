@@ -7,7 +7,7 @@ function Overview() {
     return (
     <>
      <div className="overview-container">
-      <p className="id">Dicecipher/README.md</p>
+      <p className="id">asleynicole/README.md</p>
       <pre className="ascii">
       {`
       _   _                   _  _    _       ____   _   ____  _____   _ 
@@ -25,7 +25,9 @@ function Overview() {
 
       <h1 className="title">About Me</h1>
       <p className="content">
-      I’m D1C3 (Dicecipher)—passionate about programming and design. Every project I work on is more than just code or visuals, it’s a piece of me.
+      Hi, I’m Asley Nicole. I'm passionate about both programming and design, and I approach every project as more than just code or visuals—it’s a meaningful expression of my creativity and dedication.
+
+
       </p>
       <div className='contact-line'></div>
       <h1 className="title">Languages and Tools</h1>
@@ -41,10 +43,9 @@ function Overview() {
 
      <Chip variant="outlined" className="chips"  label="VueJS" avatar={<Avatar src="https://avatars.githubusercontent.com/u/16445995?s=200&v=4" />} />
 
-     <Chip variant="outlined" className="chips"  label="NextJS" avatar={<Avatar src="https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg" />} />
+     <Chip variant="outlined" className="chips"  label="NextJS" avatar={<Avatar src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" />} />
 
      <Chip variant="outlined" className="chips"  label="WordPress" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" />} />
-     
      <Chip variant="outlined" className="chips"  label="React Native" avatar={<Avatar src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" />} />
 
      <Chip variant="outlined" className="chips"  label="Tailwind" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s" />} />
@@ -57,8 +58,24 @@ function Overview() {
 
      <Chip variant="outlined" className="chips"  label="PHP" avatar={<Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuua9_FJgkEcyctuCWfVeE_g3pBuRbEcJBng&s" />} />
      </div>
+     <div className='contact-line'></div>
+     <h1 className="title">GitHub Statistics</h1>
 
+     <div className="graphs-container">
+  <img 
+    src="https://streak-stats.demolab.com?user=aslynclmrzn&theme=transparent&hide_border=true"
+    alt="GitHub Activity Graph"
+    className="graphs"
+  />
+  <img 
+  className="stats"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=dicecipher&theme=transparent&show_icons=true&hide_border=true&layout=compact" 
+    alt="Github Stats" 
+  />
+</div>
      </div>
+
+
     </>
     )
   }
