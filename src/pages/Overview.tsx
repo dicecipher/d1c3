@@ -32,7 +32,6 @@ function Overview() {
       </p>
       <div className='contact-line'></div>
       <h1 className="title">Languages and Tools</h1>
-      
      <div className="chip-container">
      <Chip variant="outlined" className="chips"  label="HTML" avatar={<Avatar src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png?f=webp&w=256" />} />
      
