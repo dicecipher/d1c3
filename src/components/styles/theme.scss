@@ -40,16 +40,81 @@
 }
 
 body.dark-mode {
-  background-color: #121212;
+  // background-color: #121212;
   color: #ffffff;
+  min-height: 100vh;
+
 
 }
 
 body.light-mode {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   color: #000000;
 }
 
+body.dark-mode .ascii {
+  color: #93b0ff;
+}
+
+body.dark-mode .chips{
+  color: #ffffff;
+}
+
+body.dark-mode .id{
+  color: #e4e4e4;
+}
+
+body.dark-mode .project-name{
+  color: #f0f0f0;
+}
+
+body.dark-mode .username{
+  color: #c2c2c2;
+}
+
+body.dark-mode .utc-text{
+  color: #c2c2c2;
+}
+
+body.dark-mode .bottom-bar{
+  background-color: #f6f7fd;
+}
+
+body.dark-mode .projects-container{
+ background: rgba(44, 44, 74, 0.466); 
+}
+body.dark-mode .read-button button{
+  background: rgba(255, 255, 255, 0.822); 
+  
+ }
+body.dark-mode .circle-icon{
+  background-color: #f6f7fd;
+}
+body.dark-mode .circle-icon:hover{
+  background-color: #f6f7fd;
+}
+body.dark-mode .icon{
+  color: #2c2c4a;
+}
+
+body.dark-mode .icon:hover {
+  color: #2c2c4a;
+}
+
+body.light-mode .stars-container {
+  opacity: 0;
+  visibility: hidden;
+  display: none !important;
+
+}
+body.dark-mode .stars-container {
+  background: black;
+  opacity: 1;
+}
+
+body.dark-mode .get-in-touch-text-container {
+  background-color: rgba(20, 20, 22, 0.507);
+}
 @media (max-width: 480px) { 
 
   .toggle-container {
