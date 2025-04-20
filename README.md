@@ -54,4 +54,3 @@ export default tseslint.config({
 ```
 
 Demo: 
-Link:
