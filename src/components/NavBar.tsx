@@ -10,7 +10,7 @@ function NavBar() {
 
   const items = [
     { name: "Overview", color: "#d76a50" },
-    { name: "Projects", color: "#2e2f49" },
+    { name: "Projects", color: "#4e7b96" },
     { name: "Blogs", color: "#7fae9d" },
     { name: "Contact", color: "#f2cb8c" },
   ];
